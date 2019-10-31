@@ -106,7 +106,6 @@ class MachineCountLogic:
 
     def setTimeDelta(self, h, m, s):
         self.time_delta = timedelta(hours=h, minutes=m, seconds=s)
-        self.x = 2
 
     def getMostRequestedMachines(self, N):
         # this function is not thread-safe for performance reasons.
